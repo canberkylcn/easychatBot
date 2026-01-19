@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#ADBDC3"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_main">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABC CHATBOT"
+        android:textSize="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#27B090"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@mipmap/icon_yuv" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email.."
+        android:id="@+id/user_Email"
+        android:background="@drawable/rounded_corner"
+        android:inputType="textEmailAddress"
+        android:textSize="32sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/user_password"
+        android:inputType="textPassword"
+        android:textSize="32sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:backgroundTint="#27B090"
+            android:text="@string/log_in"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#27B090"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

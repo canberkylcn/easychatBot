@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "599703413141",
+    "firebase_url": "https://abcchat-92a3c-default-rtdb.firebaseio.com",
+    "project_id": "abcchat-92a3c",
+    "storage_bucket": "abcchat-92a3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599703413141:android:4051ecc4033ba5fb48569c",
+        "android_client_info": {
+          "package_name": "com.example.ABCCHATBOT"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwecvQ0n6VYKsO4Or6Q6uRgsjW7DhNuGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599703413141:android:d4ece7bc20f29cd748569c",
+        "android_client_info": {
+          "package_name": "com.example.easychatgpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwecvQ0n6VYKsO4Or6Q6uRgsjW7DhNuGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

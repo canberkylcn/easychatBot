@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ABCCHATBOT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Sifre</string>
+    <string name="action_sign_in">Giris yap ya da kayıt ol</string>
+    <string name="action_sign_in_short">Giris yap</string>
+    <string name="welcome">"Hosgeldin"</string>
+    <string name="invalid_username">Gecersiz kullanıcı adı</string>
+    <string name="invalid_password">Sifre 5 karakterden fazla olmalı</string>
+    <string name="login_failed">"Giris basarısız"</string>
+    <string name="main_writing">"ABC-CHATBOT'a hosgeldin\n Simdi deneyiniz"</string>
+    <string name="logout">"cıkıs yap "</string>
+    <string name="question">"Bir soru giriniz"</string>
+    <string name="password">"Sifre.."</string>
+    <string name="log_in">"Giris yap"</string>
+    <string name="sign_up">"Kayıt ol"</string>
+    <string name="back">"Geri"</string>
+    <string name="language">"Dil        "</string>
+</resources>

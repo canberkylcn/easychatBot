@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyler_view"
+        android:layout_above="@id/bottom_layout"
+        android:layout_below="@id/upbelow"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/upbelow">
+
+        <Button
+            android:id="@+id/language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B5FD"
+            android:padding="10dp"
+            android:text="@string/language"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="12dp" />
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/language"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B5FD"
+            android:text="@string/logout"
+            android:textStyle="bold|italic"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dp"
+            android:padding="10dp"/>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/img"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/main_writing"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:id="@+id/bottom_layout">
+
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/send_btn"
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/question"
+            android:padding="16dp" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:src="@drawable/baseline_send_24"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
